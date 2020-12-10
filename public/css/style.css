@@ -1,0 +1,49 @@
+/* Général */
+body{
+    background-color: #fdfdfd;
+}
+section{
+ padding: 5px;
+}
+.titre-center{
+    text-align: center;
+}
+
+/* Police */
+@font-face {
+    font-family: "segeo";
+    src: url("../font/segoe-ui-4-cufonfonts/SegoeUI.ttf");
+}
+.segeoUI{
+    font-family: "segeo",sans-serif,cursive;
+    font-size: 20px;
+}
+@font-face{
+    font-family: "Elephant";
+    src: url("../font/13174_ELEPHNT.ttf");
+}
+.elephant{
+    font-size: 30px;
+    font-family: "Elephant", serif;
+}
+
+
+/****************/
+/*              */
+/* nav Creation */
+/*              */
+/****************/
+
+.fixed-top{
+    margin-top: 100px;
+}
+.btn{
+    background-color: #e83f58;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: #922159;
+    color: white;
+}
