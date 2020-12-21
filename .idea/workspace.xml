@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c564bdeb-e838-4f8b-932c-edfdd34f7ce2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Entity/Creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Creation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +132,8 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lRJjpE8vP7PwFKgedvrFkb1bS0" />
@@ -182,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607554107620</updated>
       <workItem from="1607554108768" duration="4630000" />
-      <workItem from="1607877823907" duration="17422000" />
+      <workItem from="1607877823907" duration="17797000" />
     </task>
     <servers />
   </component>
