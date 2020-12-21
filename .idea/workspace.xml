@@ -11,29 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c564bdeb-e838-4f8b-932c-edfdd34f7ce2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/font/13174_ELEPHNT.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/dragonzrondBis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image10pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image11pagedaccueil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image11pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image13pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image14pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image15pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image1pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/image9pagedaccueil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/home/oursblancrond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/petites/animal18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/petites/animal19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/petites/animal20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/petites/animal21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/commandez/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/commandez/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/creation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/creation/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Creation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Creation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607554107620</updated>
       <workItem from="1607554108768" duration="4630000" />
-      <workItem from="1607877823907" duration="16759000" />
+      <workItem from="1607877823907" duration="17422000" />
     </task>
     <servers />
   </component>
@@ -228,6 +206,10 @@
       <screen x="0" y="25" width="1920" height="1175" />
     </state>
     <state x="649" y="394" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1175@0.25.1920.1175" timestamp="1608062637444" />
+    <state x="892" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608581414325">
+      <screen x="0" y="25" width="1920" height="1175" />
+    </state>
+    <state x="892" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1920.1175@0.25.1920.1175" timestamp="1608581414325" />
     <state x="776" y="335" width="637" height="502" key="find.popup" timestamp="1608065258898">
       <screen x="0" y="25" width="1920" height="1175" />
     </state>
