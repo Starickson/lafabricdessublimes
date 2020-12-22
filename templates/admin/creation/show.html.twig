@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Creation{% endblock %}
+
+{% block body %}
+    <h1>Creation</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ creation.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ creation.nom }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ creation.description }}</td>
+            </tr>
+            <tr>
+                <th>ImageThumbnail</th>
+                <td>{{ creation.imageThumbnail }}</td>
+            </tr>
+            <tr>
+                <th>Picture</th>
+                <td>{{ creation.picture }}</td>
+            </tr>
+            <tr>
+                <th>UpdatedAt</th>
+                <td>{{ creation.updatedAt ? creation.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>IsActive</th>
+                <td>{{ creation.isActive ? 'Yes' : 'No' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('admin_creation_list') }}">back to list</a>
+
+    <a href="{{ path('admin_creation_edit', {'id': creation.id}) }}">edit</a>
+
+    {{ include('admin/creation/_delete_form.html.twig') }}
+{% endblock %}
