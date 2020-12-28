@@ -11,8 +11,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c564bdeb-e838-4f8b-932c-edfdd34f7ce2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/creations-thumbnail/oeuvre1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/petites/oeuvre1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pictures/oeuvre1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/grandes/oeuvre1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/84052550_569164163698986_5479724343745314816_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/84052550_569164163698986_5479724343745314816_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cerisierTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/cerisierTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cerisiertitre1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/cerisiertitre1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/etoilestitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/etoilestitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/etoilestitre2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/etoilestitre2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/etoilestitre3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/etoilestitre3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/feuilleTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/feuilleTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/feuilleTitre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/feuilleTitre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/fleurTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/fleurTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/grandes/oeuvre1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/grandes/oeuvre2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/grandes/oeuvre2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/grandes/oeuvre3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/grandes/oeuvre3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/grandes/oeuvre4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/grandes/oeuvre4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/hirondelleTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/hirondelleTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/hirondelletitre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/hirondelletitre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/dragonzrondBis.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/dragonzrondBis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image10pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image10pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image11pagedaccueil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image11pagedaccueil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image11pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image11pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image13pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image13pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image14pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image14pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image15pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image15pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image1pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image1pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/image9pagedaccueil.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/image9pagedaccueil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/home/oursblancrond.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/home/oursblancrond.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/logo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/main1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/main1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/main2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/main2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainMotifTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/mainMotifTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mainmotiftitre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/mainmotiftitre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/maintitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/maintitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/maintitre.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/maintitre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/morceaulogobasdepage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/morceaulogobasdepage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/motifContact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/motifContact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/oiseauTitre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/oiseauTitre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/petites/oeuvre1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/petites/oeuvre2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/petites/oeuvre2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/petites/oeuvre3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/petites/oeuvre3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/petites/oeuvre4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/img/petites/oeuvre4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/pointsenbasdepage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images_sites/pointsenbasdepage.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,11 +218,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images_sites" />
+      <recent name="$PROJECT_DIR$/public/uploads" />
       <recent name="$PROJECT_DIR$/templates/admin" />
       <recent name="$PROJECT_DIR$/src/Controller/Admin" />
       <recent name="$PROJECT_DIR$/public/img/home" />
-      <recent name="$PROJECT_DIR$/public/font" />
-      <recent name="$PROJECT_DIR$/public/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img/petites" />
@@ -188,7 +241,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607554107620</updated>
       <workItem from="1607554108768" duration="4630000" />
-      <workItem from="1607877823907" duration="31960000" />
+      <workItem from="1607877823907" duration="33878000" />
+      <workItem from="1609012292637" duration="25000" />
     </task>
     <servers />
   </component>
@@ -224,10 +278,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="698" y="359" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1608585794486" />
-    <state x="776" y="335" width="637" height="502" key="find.popup" timestamp="1608065258898">
-      <screen x="0" y="25" width="1920" height="1175" />
+    <state x="402" y="201" width="1160" height="562" key="find.popup" timestamp="1608744144188">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="776" y="335" width="637" height="502" key="find.popup/0.25.1920.1175@0.25.1920.1175" timestamp="1608065258898" />
+    <state x="402" y="201" width="1160" height="562" key="find.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1608744144188" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
