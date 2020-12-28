@@ -4,7 +4,7 @@
     </button>
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mx-auto">
             <li class="nav-item ">
                 <a class="nav-link {% if current_menu is defined and current_menu == 'properties' %} active {% endif %}" href="{{ path('app_home') }}">Accueil</a>
             </li>
@@ -21,5 +21,24 @@
                 <a class="nav-link {% if current_menu is defined and current_menu == 'contact' %} active {% endif %}" href="{{ path('app_contact') }}">Contact</a>
             </li>
         </ul>
+        <ul class="navbar-nav align-items-center">
+            {% if is_granted('ROLE_ADMIN') %}
+                <div class="nav-item dropdown mr-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admin
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="{{ path('admin_creation_list') }}">Nouvelle création</a>
+                        <a class="dropdown-item" href="{{ path('admin_categorie_list') }}">Nouvelle catégorie</a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item" href="{{ path('app_logout') }}">Se deconnecter</a>
+                    </div>
+                </div>
+            {% endif %}
+            <li class="nav-item">
+                <a href="{{ path('app_login') }}"><img style="width: 50px; height: 50px" src="{{ asset('img/profile.svg') }}" alt=""></a>
+            </li>
+        </ul>
     </div>
 </nav>
+

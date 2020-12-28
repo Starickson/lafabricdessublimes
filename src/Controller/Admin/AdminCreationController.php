@@ -5,12 +5,14 @@ namespace App\Controller\Admin;
 use App\Entity\Creation;
 use App\Form\AdminCreationType;
 use App\Repository\CreationRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
+ * @IsGranted("ROLE_ADMIN")
  * @Route("/admin/creation", name="admin_creation_")
  */
 class AdminCreationController extends AbstractController

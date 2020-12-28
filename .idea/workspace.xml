@@ -11,8 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c564bdeb-e838-4f8b-932c-edfdd34f7ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lafabricdessublimes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lafabricdessublimes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/creation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/creation/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCategorieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCategorieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminCreationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminCreationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/creation/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/creation/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +144,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/verify-email-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfonycasts/reset-password-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lRJjpE8vP7PwFKgedvrFkb1bS0" />
@@ -153,7 +167,7 @@
     <property name="TYPO3XliffPathToExtensionLanguageFiles" value="Resources/Private/Language/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/petites" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,22 +175,23 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/img/petites" />
+      <recent name="$PROJECT_DIR$/public/img/home" />
+      <recent name="C:\Users\User\symfony-workspace\mick\lafabricdessublimes" />
+      <recent name="C:\Users\User\symfony-workspace\mick\lafabricdessublimes\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/admin" />
       <recent name="$PROJECT_DIR$/src/Controller/Admin" />
       <recent name="$PROJECT_DIR$/public/img/home" />
       <recent name="$PROJECT_DIR$/public/font" />
       <recent name="$PROJECT_DIR$/public/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/petites" />
-      <recent name="$PROJECT_DIR$/public/img/home" />
-      <recent name="C:\Users\User\symfony-workspace\mick\lafabricdessublimes" />
-      <recent name="C:\Users\User\symfony-workspace\mick\lafabricdessublimes\public" />
-      <recent name="C:\Users\User\symfony-workspace\mick\lafabricdessublimes\src\Form" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -224,6 +239,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="698" y="359" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1608585794486" />
+    <state x="491" y="236" key="SettingsEditor" timestamp="1609155456789">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="491" y="236" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1609155456789" />
     <state x="776" y="335" width="637" height="502" key="find.popup" timestamp="1608065258898">
       <screen x="0" y="25" width="1920" height="1175" />
     </state>

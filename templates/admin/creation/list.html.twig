@@ -4,6 +4,9 @@
 
 {% block body %}
     <h1>Creation index</h1>
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success" role="alert">{{ message }}</div>
+    {% endfor %}
 
     <table class="table">
         <thead>
