@@ -23,6 +23,14 @@
     left: 90px;
     z-index: -1;
 }
+.imglogoMagic{
+    position: relative;
+    width: 135px;
+    height: 165px;
+    top: 50px;
+    left: 350px;
+    transform: rotate(-15deg);
+}
 .imgHirondelle2{
     position: relative;
     width: 205px;
