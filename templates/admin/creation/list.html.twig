@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Creation index{% endblock %}
+
+{% block body %}
+    <h1>Creation index</h1>
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success" role="alert">{{ message }}</div>
+    {% endfor %}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>ImageThumbnail</th>
+                <th>Picture</th>
+                <th>UpdatedAt</th>
+                <th>IsActive</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for creation in creations %}
+            <tr>
+                <td>{{ creation.id }}</td>
+                <td>{{ creation.nom }}</td>
+                <td>{{ creation.description }}</td>
+                <td>{{ creation.imageThumbnail }}</td>
+                <td>{{ creation.picture }}</td>
+                <td>{{ creation.updatedAt ? creation.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ creation.isActive ? 'Yes' : 'No' }}</td>
+                <td>
+                    <a href="{{ path('admin_creation_show', {'id': creation.id}) }}">show</a>
+                    <a href="{{ path('admin_creation_edit', {'id': creation.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('admin_creation_new') }}">Create new</a>
+{% endblock %}

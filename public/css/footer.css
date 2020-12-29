@@ -2,8 +2,8 @@ footer{
     margin-top: 80px;
 }
 .logo-bas{
-    width: 280px;
-    height: 185px;
+    width: 350px;
+    height: 255px;
 }
 i{
     font-size: 40px;
@@ -20,5 +20,11 @@ i{
 @media screen and (max-width: 499px) {
     .pointEnBas{
         width: 300px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1024px){
+    .logo-bas{
+        width: 280px;
+        height: 185px;
     }
 }

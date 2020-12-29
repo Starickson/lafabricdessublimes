@@ -5,55 +5,37 @@
     <link rel="stylesheet" href="{{ asset('css/home.css')}}">
 {% endblock %}
 {% block body %}
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <img src="{{ asset('img/logo1.jpg')}}" alt="logoLaFabricDesSublimes" class="logoLaFabricDesSublimes">
-                </div>
-            </div>
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="d-flex justify-content-center">
+            <img src="{{ asset('images_sites/logo1.jpg')}}" alt="logoLaFabricDesSublimes" class="logoLaFabricDesSublimes">
         </div>
     </div>
 
 
-    <div class="text-center">
-        <div class="container">
-            <div class="row p-5">
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image1.jpg')}}" class="taille-image-accueil" alt="imageHomePage0">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image2.jpg')}}" class="taille-image-accueil" alt="imageHomePage1">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image3.jpg')}}" class="taille-image-accueil" alt="imageHomePage2">
-                </div>
+    <div class="text-center mt-5 contenair-custom">
+        <div class="container-fluid bloc">
+            <div class="d-flex justify-content-between">
+                    <img src="{{ asset('images_sites/home/image1pagedaccueil.png')}}" class="taille-image-accueil" alt="imageHomePage0">
+                    <img src="{{ asset('images_sites/home/image11pagedaccueil.png')}}" class="taille-image-accueil" alt="imageHomePage1">
+                    <img src="{{ asset('images_sites/home/image15pagedaccueil.png')}}" class="taille-image-accueil" alt="imageHomePage2">
             </div>
-            <div class="row p-5">
-                <div class="col-lg-4 col-md-4 titre-accueil">
-                    <img src="{{ asset('img/image8.jpg')}}" class="taille-image-accueil imageHome" alt="imageHomePage3">
-                </div>
-                <div class="col-lg-4 col-md-4 titre-accueil">
-                    <h2 class="accueil">Sublimer votre univers</h2>
+            <div class="d-flex justify-content-between ligne2">
+                <img src="{{ asset('images_sites/home/image9pagedaccueil.png')}}" class="taille-image-accueil imageHome" alt="imageHomePage3">
+                <div class="d-flex flex-column justify-content-center">
+                    <h4 class="accueil mt-0 mb-4">Oeuvre d’art sur mesure</h4>
                     <p class="text-accueil m-0">Votre Créatrice sur mesure</p>
                     <p class="text-accueil m-0">Sublime</p>
                     <p class="text-accueil m-0">Votre univers en oeuvre d'art.</p>
                     <p class="text-accueil m-0">(peinture, dessin, broderie et logo)</p>
+                    <h6 class="accueil mt-5">Sublimer votre univers</h6>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image4.jpg')}}" class="taille-image-accueil imageHome" alt="imageHomePage4">
-                </div>
+                <img src="{{ asset('images_sites/home/image14pagedaccueil.png')}}" class="taille-image-accueil imageHome" alt="imageHomePage4">
             </div>
-            <div class="row p-5">
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image7.jpg')}}" class="taille-image-accueil" alt="imageHomePage5">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image6.jpg')}}" class="taille-image-accueil" alt="imageHomePage6">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="{{ asset('img/image5.jpg')}}" class="taille-image-accueil" alt="imageHomePage7">
-                </div>
+            <div class="d-flex justify-content-between">
+                <img src="{{ asset('images_sites/home/image10pagedaccueil.png')}}" class="taille-image-accueil" alt="imageHomePage5">
+                <img src="{{ asset('images_sites/home/image13pagedaccueil.png')}}" class="taille-image-accueil" alt="imageHomePage6">
+                <img src="{{ asset('images_sites/home/dragonzrondBis.png')}}" class="taille-image-accueil" alt="imageHomePage6">
             </div>
 
         </div>

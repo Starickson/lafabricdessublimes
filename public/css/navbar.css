@@ -1,5 +1,5 @@
 .navbar-nav{
-    font-size: 16px;
+    font-size: 22px;
     font-family: "segeo",sans-serif,cursive;
 }
 
@@ -16,4 +16,10 @@
 }
 .active{
     border-bottom: 6px dotted #80002a;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px){
+    .navbar-nav{
+        font-size: 16px;
+    }
 }
